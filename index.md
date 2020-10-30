@@ -10,7 +10,3 @@ EmThreat is a *free* utility for pulling information from open-source platforms 
 EmShot is an online platform to generate custom reports, integrate feeds with your SEIM, build custom rules, and manage security alerts for your departments. 
 
 
-[Try EmThreat]("https://github.com/steelsleuth/EmThreat")
-
-
-
