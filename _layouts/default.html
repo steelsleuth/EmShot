@@ -35,8 +35,6 @@
         <form id="my-form" action="https://formspree.io/f/xayljojw" method="POST">
         <label>Email:</label>
         <input type="email" name="email" />
-        <label>Message:</label>
-        <input type="text" name="message" />
         <button id="my-form-button">Send</button>
         <p id="my-form-status"></p>
       </form>
@@ -61,7 +59,7 @@
     function success() {
       form.reset();
       button.style = "display: none ";
-      status.innerHTML = "Thanks!";
+      status.innerHTML = "Thanks! We will get back with you soon!";
     }
 
     function error() {
