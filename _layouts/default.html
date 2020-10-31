@@ -25,12 +25,19 @@
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       <a href="https://github.com/steelsleuth/EmThreat" class="btn">View EmThreat</a>
-      <a href="#" class="btn"> Contact The Team</a>
+      <a href="#contact" class="btn"> Contact The Team</a>
     </header>
 
     <main id="content" class="main-content" role="main">
       {{ content }}
 
+      <div id="contact"> 
+        <form action="https://formspree.io/f/xayljojw" method="POST">
+          <input type="text" name="name">
+          <input type="email" name="_replyto">
+          <input type="submit" value="Send">
+        </form>
+      </div>
       <footer class="site-footer">
       </footer>
     </main>
